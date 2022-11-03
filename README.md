@@ -19,11 +19,20 @@ The following libraries are required for this code base. We recommend to use the
 * Python v3.7.9
 * PyTorch v1.9.0
 * Numpy v1.19.1
-* Matlab Engine for Python (R2020a) (Only required for generating the demonstration replay, [How to install Matlab Engine](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html))
+* Matlab Engine for Python (R2020a) (Only required for generating the demonstration replay, see [how to install Matlab Engine](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html))
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
-1. Generate the demonstration replay. Thi
+1. Generate the demonstration replay by running:
+```
+python demonstration_gen.py
+```
+Running the script will generate the demonstration replay and store it as NumPy array file (.npy) with names `replay_*.npy`. You may skip this process by using our pre-generated demonstration replay, which can be downloaded here.
+
+2. Start the training algorithm by running:
+```
+python main.py
+``` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
