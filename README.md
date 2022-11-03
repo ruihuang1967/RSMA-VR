@@ -17,7 +17,7 @@ python demonstration_gen.py
 ```
 Running the script will generate the demonstration replay and store it as NumPy array file (.npy) with names `replay_*.npy`. 
 
-You may skip this step by using our pre-generated demonstration replay (together with the experience replay), which can be downloaded [here](https://drive.google.com/file/d/1PCTX1Li6Gow6G3ij0vK2dCuPVHBV2FzZ/view?usp=share_link) (File size ~1.49GB).
+You can skip this step by using the pre-generated demonstration replay (together with the experience replay), which can be downloaded [here](https://drive.google.com/file/d/1PCTX1Li6Gow6G3ij0vK2dCuPVHBV2FzZ/view?usp=share_link) (File size ~1.49GB).
 
 2. Start the training algorithm by running:
 ```
