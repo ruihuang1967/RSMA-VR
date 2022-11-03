@@ -9,7 +9,7 @@ This is the code base for the Deep-GRAIL algorithm, with a specific application 
 
 ### Prerequisites
 
-The following libraries are required for this code base.
+The following libraries are required for this code base. We recommend to use the same versions.
 * Python 
   ```sh
   npm install npm@latest -g
