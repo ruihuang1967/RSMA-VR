@@ -15,12 +15,22 @@ The following libraries are required for this code base. We recommend to use the
 ```
 python demonstration_gen.py
 ```
-Running the script will generate the demonstration replay and store it as NumPy array file (.npy) with names `replay_*.npy`. You may skip this step by using our pre-generated demonstration replay (as well as the experience replay), which can be downloaded [here](https://drive.google.com/file/d/1PCTX1Li6Gow6G3ij0vK2dCuPVHBV2FzZ/view?usp=share_link) (File size ~1.49GB).
+Running the script will generate the demonstration replay and store it as NumPy array file (.npy) with names `replay_*.npy`. 
+
+You may skip this step by using our pre-generated demonstration replay (together with the experience replay), which can be downloaded [here](https://drive.google.com/file/d/1PCTX1Li6Gow6G3ij0vK2dCuPVHBV2FzZ/view?usp=share_link) (File size ~1.49GB).
 
 2. Start the training algorithm by running:
 ```
 python main.py
-``` 
+```
+
+### Structures
+* `main.py`: Main training loop and the implementation of Markov decision process (MDP).
+* `DeepGRAIL.py`: The learning algorithm.
+* `networks.py`: The implementation of the deep neural networks.
+* `utils.py': The implementation of the replay, including adding, loading, saving, and sampling of transition tuples.
+* `demonstration_gen.py`: Method for generating the demonstration replay. The MDP implemented here needs to be the same as `main.py`.
+* `opt_algo.m`: Matlab script for the conventional optimization algorithm (e.g., alternating optimization (AO) algorithm.
 
 ### Bibtex
 
