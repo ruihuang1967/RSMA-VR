@@ -28,7 +28,7 @@ python main.py
 * `main.py`: Main training loop and the implementation of Markov decision process (MDP).
 * `DeepGRAIL.py`: The learning algorithm.
 * `networks.py`: The implementation of the deep neural networks.
-* `utils.py': The implementation of the replay, including adding, loading, saving, and sampling of transition tuples.
+* `utils.py`: The implementation of the replay, including adding, loading, saving, and sampling of transition tuples.
 * `demonstration_gen.py`: Method for generating the demonstration replay. The MDP implemented here needs to be the same as `main.py`.
 * `opt_algo.m`: Matlab script for the conventional optimization algorithm (e.g., alternating optimization (AO) algorithm.
 
