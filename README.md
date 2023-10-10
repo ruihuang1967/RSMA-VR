@@ -35,11 +35,13 @@ python main.py
 ### Bibtex
 
 ```
-@article{rui2022rate,
-    title={Rate-Splitting for Intelligent Reflecting Surface-Aided Multiuser {VR} Streaming},
-   	author={Huang, Rui and  W.S. Wong, Vincent and Schober, Robert},
-    year={2022},
-    month = {Oct.},
-    journal={arXiv preprint arXiv:2210.12191},
-}
+@ARTICLE{rui2023jsac,
+  author={Huang, Rui and Wong, Vincent W.S. and Schober, Robert},
+  journal={IEEE Journal on Selected Areas in Communications}, 
+  title={Rate-Splitting for Intelligent Reflecting Surface-Aided Multiuser VR Streaming}, 
+  year={2023},
+  volume={41},
+  number={5},
+  pages={1516-1535},
+  doi={10.1109/JSAC.2023.3240710}}
 ```
