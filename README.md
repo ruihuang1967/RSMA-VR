@@ -1,4 +1,4 @@
-# Deep-GRAIL Algorithm: Deep Deterministic Policy Gradient with Imitation Learning
+# Rate-Splitting for Intelligent Reflecting Surface-Aided Multiuser VR Streaming
 
 This is the PyTorch implementation for the deep deterministic policy gradient with imitation learning (Deep-GRAIL) algorithm, with a specific application to solve the sum-rate maximization problem in rate-splitting multiuser systems. The code includes the implmentations of the learning algorithm, deep neural network models, system model for the rate-spliting multiuser systems, as well as a conventional optimization algorithm. If our codes and data are helpful to your research, please kindly cite [the paper]([https://ieeexplore.ieee.org/document/10032264]). The application in the multiuser VR streaming systems will be updated upon final paper acceptance. Please check this page for updates.
 
